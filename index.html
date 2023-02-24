@@ -1,90 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CPM-program">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/hataraku.png">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CPM-program</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+    <header id="header">
+        <div class="logo-space">
+            <h1 class="title-logo"><a href="">CPM-program</a></h1>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+        <nav class="header-nav-left">
+            <ul class="header-list">
+                <li class="header-list-item"><a href="">スライド一覧</a></li>
+                <li class="header-list-item"><a href="">クイズ一覧</a></li>
+                <li class="header-list-item"><a href="">スライド・クイズ作成</a></li>
+            </ul>
+        </nav>
+        <nav class="header-nav-right">
+            <ul class="header-list-icon">
+                <li class="list-icon-item"><a href=""><img src="../2022-summer-study/mail-icon.png" alt=""></a></li>
+                <li class="list-icon-item"><a href=""><img src="../2022-summer-study/ring-icon.png" alt=""></a></li>
+                <li class="list-icon-item"><a href=""><img src="../2022-summer-study/human-icon.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>                                  
+         <div class="main-flex">
+                <section class="view-left">
+                    <div class="select-inner wrapper">
+                        <h2 class="section-title">自身スコア一覧</h2>
+                    <ul class="select-item">
+                        <li class="select-li"><a href="#"><p class="select-text">RinoIto</p><img src="squid.png" alt="クラーケン"><p class="select-math">Lv.17</p></a></li>
+                        <li class="select-li"><a href="#"><p class="select-text">総演習クリア数</p><img src="pc.png" alt="パソコン"><p class="select-math">30</p></a></li>
+                        <li class="select-li"><a href="#"><p class="select-text">週間ポイント数</p><img src="hart.png" alt="ハート"><p class="select-math">20pt</p></a></li>
+                    </ul>
+                    </div>
+                </section>
+             
+                        <aside id="sidebar">
+                                    <section class="sidebar-box">
+                                        <div class="achieve"><img src="achieve.png" alt=""><p class="achive-text">3日連続ログイン達成</p></div>
+                                        <div class="corporate-box">
+                                            <div class="corporate-title-box"><p class="corporate-title">週間ランキング</p><span class="corporate-time">残り4日18:34</span></div>
+                                            <ul class="corporate-list">
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                                <li class="corporate-name"><a href="#">楯の川酒造株式会社</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </aside>
+                            </section>
+         </div>
+    </main>
 </body>
 </html>
